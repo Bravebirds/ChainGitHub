@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="五步蛇待敌多厉害？真实数据显示单反被咬，就是几乎无法生还"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/image_layout"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/image_01"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+           />
+
+        <ImageView
+            android:id="@+id/image_02"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image_03"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom"
+            android:text="时间"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:text="来源于"
+        android:textColor="@color/gray"
+        android:textSize="10sp"/>
+    </LinearLayout>
+
+</LinearLayout>

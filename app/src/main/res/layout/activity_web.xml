@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!--xinwen新闻详细页面-->
+    <com.cdye.baselibrary.view.BaseToolBar
+        android:id="@+id/toolbar"
+        style="@style/BaseToolBar_WH"
+        android:background="@color/colorPrimary"
+        app:btb_title_text="详情"/>
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

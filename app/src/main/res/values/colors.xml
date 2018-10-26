@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF1D00</color>
+    <color name="colorPrimaryDark">#FF1D00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="aiqiyi">#232325</color>
+    <color name="music">#1555</color>
+    <color name="text_balck">#333333</color>
+    <color name="black">#333333</color>
+    <color name="gray">#999999</color>
+    <color name="text_selected">#888</color>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="WelcomeHeadingAppearance" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/welcome_heading</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="WelcomeContentAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/welcome_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

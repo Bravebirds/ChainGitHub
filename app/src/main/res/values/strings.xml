@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ChainNews</string>
+    <string name="title_home">首页</string>
+    <string name="title_video">视频</string>
+    <string name="title_music">音乐</string>
+    <string name="title_setting">我</string>
+    <string name="button_pass">跳过</string>
+    <string name="button_done">完成</string>
+    <string name="button_product_tour">Product tour</string>
+
+    <string name="welcom_head_01">欢迎使用MrYu.ChainNews</string>
+	//你将进入此软件第一次使用的引导界面
+    <string name="welcom_content_01">You will enter the boot interface used for the first time in this software.</string>
+	//这是一款免费的软件
+    <string name="welcom_head_02">这是一款免费的软件</string>
+    <string name="welcom_content_02">It can be used free of charge.</string>
+    <string name="welcom_head_03">用户体验效果</string>
+    <string name="welcom_content_03">Never lose your progress, so you can keep working from any computer or device.</string>
+    <string name="welcom_head_04">Welcome to use, you will no longer enter the guide page.</string>
+    <string name="welcom_content_04">You will enter the main page.</string>
+
+</resources>

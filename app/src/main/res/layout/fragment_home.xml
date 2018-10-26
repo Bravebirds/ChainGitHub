@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--主页面news新闻界面-->
+    <!--toolbar状态栏-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="0dp">
+        <!--top——icon-->
+        <ImageView
+            android:src="@mipmap/top_icon"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"/>
+        <!--搜索框-->
+        <LinearLayout
+            android:id="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_marginRight="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/shape_search">
+            <ImageView
+                android:src="@drawable/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="刘亦菲悼念粉丝"
+                android:textColor="#80FFFFFF"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        app:tabMode="scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/tab_layout" />
+
+</android.support.constraint.ConstraintLayout>
